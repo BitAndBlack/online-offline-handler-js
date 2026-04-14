@@ -10,8 +10,6 @@
 
 A lightweight browser utility to watch and react to online/offline network connection changes.
 
-This library is made for the use with Node and also available as an ES module.
-
 ## Installation
 
 Add the Online Offline Handler to your project by running
