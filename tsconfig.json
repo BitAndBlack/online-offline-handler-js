@@ -3,14 +3,14 @@
         "declaration": true,
         "sourceMap": false,
         "lib": [
-            "es2019.object",
+            "es2021",
             "dom"
         ],
-        "allowSyntheticDefaultImports": true,
-        "skipLibCheck": true
+        "esModuleInterop": true,
+        "target": "es2021"
     },
     "exclude": [
         "./tests/**/*.ts",
-        "./*.ts",
+        "./vitest.config.ts",
     ]
 }

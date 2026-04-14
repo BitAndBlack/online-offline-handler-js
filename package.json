@@ -23,7 +23,8 @@
     "main": "index.ts",
     "types": "index.d.ts",
     "directories": {
-        "lib": "src"
+        "lib": "src",
+        "tests": "tests"
     },
     "scripts": {
         "build": "tsc",
