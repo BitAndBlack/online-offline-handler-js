@@ -12,6 +12,7 @@
     ],
     "homepage": "https://www.bitandblack.com",
     "bugs": {
+        "url": "https://github.com/BitAndBlack/online-offline-handler-js/issues",
         "email": "hello@bitandblack.com"
     },
     "license": "MIT",
@@ -25,6 +26,10 @@
     "directories": {
         "lib": "src",
         "tests": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com:BitAndBlack/online-offline-handler-js.git"
     },
     "scripts": {
         "build": "tsc",
