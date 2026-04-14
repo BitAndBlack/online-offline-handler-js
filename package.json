@@ -1,0 +1,41 @@
+{
+    "name": "bitandblack-online-offline-handler",
+    "version": "0.0.0",
+    "description": "A lightweight browser utility to watch and react to online/offline network connection changes.",
+    "keywords": [
+        "online",
+        "offline",
+        "network",
+        "connection",
+        "watcher",
+        "browser"
+    ],
+    "homepage": "https://www.bitandblack.com",
+    "bugs": {
+        "email": "hello@bitandblack.com"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Tobias Köngeter",
+        "email": "hello@bitandblack.com",
+        "url": "https://www.bitandblack.com"
+    },
+    "main": "index.ts",
+    "types": "index.d.ts",
+    "directories": {
+        "lib": "src"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "test:coverage": "vitest run --coverage"
+    },
+    "devDependencies": {
+        "@vitest/coverage-v8": "^4.0",
+        "jsdom": "^29.0",
+        "tslib": "^2.0",
+        "typescript": "^6.0",
+        "vitest": "^4.0"
+    }
+}
