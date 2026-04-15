@@ -12,13 +12,7 @@ A lightweight browser utility to watch and react to online/offline network conne
 
 ## Installation
 
-Add the Online Offline Handler to your project by running
-
-```bash
-$ npm install bitandblack-online-offline-handler
-```
-
-Or use whatever tool you want.
+This library is made for the use with [Node](https://www.npmjs.com/package/bitandblack-online-offline-handler). Add it to your project by running `$ npm install bitandblack-online-offline-handler` or add it with another dependency manager by your choice.
 
 ## Usage
 
